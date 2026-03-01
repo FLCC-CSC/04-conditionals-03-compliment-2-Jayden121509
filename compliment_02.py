@@ -1,9 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
-
+# NAME: Jayden Blair
+# DATE: 3/1/26
+# BRIEF DESCRIPTION:  If user says they want a compliment, give them one. If they say no, tell them no compliment for you.
 
 
 # 1. Make sure you fill out the comments above
@@ -17,6 +16,12 @@
 
 
 
+response = input("Would you like a compliment? ")
+if response == "yes":
+    print("You have wonderful eyes.")
+else:
+    print("No compliment for you!")
+print("Thank you for playing.")
 
 
 
@@ -71,7 +76,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
-
+No, the first compliment lab gave me a good idea of how to do this one, so it was pretty easy to figure out.
 
 
 
